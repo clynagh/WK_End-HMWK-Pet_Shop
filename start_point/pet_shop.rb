@@ -40,3 +40,13 @@ def pets_by_breed(shop_name, breed_to_search_for)
   end
 return collected_pets
 end
+
+def find_pet_by_name(shop_name, name_to_search_for)
+  pets = shop_name[:pets]
+  for pet in pets
+    if pet[:name] == name_to_search_for
+      return pet
+    end
+  end
+  return nil
+end
