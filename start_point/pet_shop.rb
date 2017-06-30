@@ -19,5 +19,5 @@ def pets_sold(pets_sold_number)
 end
 
 def increase_pets_sold(pets_sold_number, additonal_pets)
-
+return pets_sold_number[:admin][:pets_sold] += additonal_pets
 end 
