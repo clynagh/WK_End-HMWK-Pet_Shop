@@ -50,3 +50,37 @@ def find_pet_by_name(shop_name, name_to_search_for)
   end
   return nil
 end
+
+# def remove_pet_by_name(shop_name, pet_to_remove)
+#   pets = shop_name[:pets]
+#   for pet in pets 
+#     if pet[:name] == pet_to_remove
+#       return pet
+#     end
+#   end
+# # return collected_pets
+# end
+
+# 
+##Struggling with remove pet by name for some reason.
+# def remove_pet_by_name(shop_name, name_to_search_for)
+#   pets = shop_name[:pets]
+#   for pet in pets
+#     if pet[:name] == name_to_search_for
+#       return 
+#     end
+#   end
+# end
+
+
+# pet.delete_if {|| score < 80 }   #=> [97
+# return pet.delete.if { |k, v| v == name_to_search_for}
+
+def add_pet_to_stock(shop_name, new_pet)
+  shop_name[:pets].push [:new_pet]
+  return shop_name[:pets]
+end
+
+
+
+
