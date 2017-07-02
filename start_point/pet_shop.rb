@@ -82,5 +82,38 @@ def add_pet_to_stock(shop_name, new_pet)
 end
 
 
+# def customer_pet_count(total_customer_pets)
+#   total_customer_pets = []
+#   pet = [:@customer]
+#   for pet in [:pets] do 
+#     total_customer_pets << pet
+#     return total_customer_pets
+#   end
+# end
 
+# def customer_pet_count(customer)
+#   customer = ["@customers"]
+#   customer[:pets].length
+# return customer
+
+# end
+
+
+
+# def customer_pet_count(customer)
+# total_pets_owned = []
+#   for pet in pets do
+#     total_pets_owned.push customer[:pets]
+#   end
+#   p total_pets_owned.count
+# end
+
+ # pets = shop_name[:pets]
+#     for pet in pets
+#       if pet[:name] == name_to_search_for
+#         return pet
+#       end
+#     end
+#     return nil
+#   end
 
